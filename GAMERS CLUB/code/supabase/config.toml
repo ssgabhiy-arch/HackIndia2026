@@ -1,0 +1,28 @@
+project_id = "zfgcnamaimistahilgvp"
+
+[functions.submit-game-session]
+verify_jwt = true
+
+[functions.generate-quiz]
+verify_jwt = true
+
+[functions.adjust-difficulty]
+verify_jwt = true
+
+[functions.generate-insights]
+verify_jwt = true
+
+[functions.submit-quiz-session]
+verify_jwt = true
+
+[functions.generate-debug-challenge]
+verify_jwt = true
+
+[functions.check-debug-solution]
+verify_jwt = true
+
+[functions.generate-algorithm-challenge]
+verify_jwt = true
+
+[functions.check-algorithm-solution]
+verify_jwt = true
